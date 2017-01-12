@@ -1,7 +1,7 @@
 'use strict'
 
 import React from 'react'
-import ReactDOM from 'react-dom'
-import Main from './Components/Main'
+import { render } from 'react-dom'
+import Main from './components/main'
 
-ReactDOM.render(<Main/>, document.getElementById('app'))
+render(<Main />, document.getElementById('app'))

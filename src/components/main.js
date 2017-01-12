@@ -2,6 +2,14 @@
 
 import React from 'react'
 
-export default function Main(props) {
-    return <div>Hello world!</div>
+export default class Main extends React.Component {
+    constructor(props) {
+        super(props)
+    }
+
+    render() {
+        return (
+            <div>Hello world!</div>
+        )
+    }
 }
