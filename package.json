@@ -1,0 +1,13 @@
+{
+  "name": "react-seed",
+  "version": "0.0.1",
+  "description": "A seed project for a React build",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nick Meldrum <nick@nickmeldrum.com> (http://nickmeldrum.com/)",
+  "license": "MIT",
+  "devDependencies": {
+  }
+}
