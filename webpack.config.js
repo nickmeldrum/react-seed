@@ -21,6 +21,7 @@ module.exports = {
       'react/addons': true,
       'react/lib/ExecutionEnvironment': true,
       'react/lib/ReactContext': true
-    }
+    },
+    devtool: 'inline-source-map'
 }
 
