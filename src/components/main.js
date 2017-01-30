@@ -13,3 +13,11 @@ export default class Main extends React.Component {
         )
     }
 }
+
+Main.propTypes = {
+    name: React.PropTypes.string.isRequired
+}
+
+Main.defaultProps = {
+    name: 'Please enter your name'
+}

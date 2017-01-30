@@ -15,3 +15,4 @@ A seed project for a React build
 ## Details, details
 
  * hot loading (as of 1.3.1) isn't working with stateless components, think it's fixed in v3 of react-hot-loader but v3 beta is HARD to get installed right with no docs
+ * proptypes warnings failing tests doesn't work on multiple runs in watch, only first time runs. Assume this is because React only shows this warning on "initial mount" of a component
