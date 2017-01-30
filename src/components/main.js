@@ -9,7 +9,7 @@ export default class Main extends React.Component {
 
     render() {
         return (
-            <div>Hello world!</div>
+            <div>Hello {this.props.name}!</div>
         )
     }
 }
